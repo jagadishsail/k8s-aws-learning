@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: pod3-github-img
-  lables:
+  labels:
     app: hello-world
 spec:
   containers:
