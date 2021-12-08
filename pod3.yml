@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod3-github-img
+spec:
+  containers:
+    - name: nginx-jagadish
+      image: jagadishsail/aws-training
+      ports:
+        - containerPort: 8082
