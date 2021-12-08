@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
     - name: nginx-jagadish
-      image: jagadishsail/java-docker
+      image: jagadishsail/java-docker:1.0.0
       ports:
         - name: nodejs-port
           containerPort: 3000
