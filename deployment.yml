@@ -6,7 +6,7 @@ spec:
   replicas: 10
   selector:
     matchLabels:
-      apphelloworld
+      app: helloworld
      template:
        metadata:
          labels:
