@@ -7,14 +7,14 @@ spec:
   selector:
     matchLabels:
       app: helloworld
-     template:
-       metadata:
-         labels:
-           app: helloworld
-       spec: 
-         containers:
-           - name: k8s-demo
-             image: jagadishsail/java-docker:1.0.0
-             ports:
-               - name: nodejs-port
-                 containerPort: 3000
+  template:
+    metadata:
+      labels:
+        app: helloworld
+    spec: 
+      containers:
+        - name: k8s-demo
+          image: jagadishsail/java-docker:1.0.0
+          ports:
+            - name: nodejs-port
+              containerPort: 3000
