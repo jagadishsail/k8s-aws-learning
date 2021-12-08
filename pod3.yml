@@ -2,10 +2,12 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: pod3-github-img
-  lables: hello-world
+  lables:
+    app: hello-world
 spec:
   containers:
     - name: nginx-jagadish
       image: jagadishsail/aws-training
       ports:
-        - containerPort: 8082
+        - name: nodejs-port
+          containerPort: 3000
